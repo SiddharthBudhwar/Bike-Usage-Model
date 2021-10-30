@@ -11,3 +11,10 @@ The variable we want to predict is count and we'll do this using temperature, hu
 We can look quickly at the pattern of bike usage over time with some simple barplots. The information extracted earlier from the date column makes it easy to adjust granularity from days to months, as well as compare years.
 It’s also useful to quickly visualise the variables we are interested in. The seaborn package is great for this. A pairplot will show the relationship between the target variable count and all other variables. By passing kind='reg' to the plotting function, a regression line can be fitted. This gives an indication of whether there might be a useful linear relation between variables.
 It looks like there may be a good relationship between temperature and the number of bikes hired.
+![1_geyc3NB82OEuW3egWZm2Rw](https://user-images.githubusercontent.com/74424623/139555991-eeb6f09b-364f-4407-a07e-89bac2678a7e.png)
+
+### 3. Evaluating the model
+
+There are several intrinsic evaluation metrics for regression models. To see how our predictions match the true values, we can calculate R2, Mean Absolute Error and the Explained Variance. Briefley, we want R2 and EVS to be close to 1.0 and MAE to be close to 0. We can also plot predictions against truth in a regression plot, which will automatically fit a line for us.
+
+
