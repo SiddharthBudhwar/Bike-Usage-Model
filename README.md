@@ -1,4 +1,4 @@
-# Bikes Rented Out
+# Bikes Rented Out Model
 
 The model we will deploy is predicting using the xgboost package. Our model will perform regression on the data, using three environmental variables (temperature, humidity, windspeed) to predict the number of bikes that will be rented out from a bike sharing scheme. 
 
@@ -21,5 +21,9 @@ There are several intrinsic evaluation metrics for regression models. To see how
 
 ### 4. Getting the model ready for deployment
 We can save our trained classifier model to disk using pickle. It can then be reloaded later on and used exactly as if we had trained it.
+
+## Input/Output 
+Live link : http://bike-model.herokuapp.com/
+
 
 
