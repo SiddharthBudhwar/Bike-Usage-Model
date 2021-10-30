@@ -1,4 +1,4 @@
-# Bikes Rented Out Model
+# Bike Usage Model
 
 The model we will deploy is predicting using the xgboost package. Our model will perform regression on the data, using three environmental variables (temperature, humidity, windspeed) to predict the number of bikes that will be rented out from a bike sharing scheme. Dataset used : https://drive.google.com/file/d/157BfQXETQGjOMDHXq1XMWoOK-zsbdB9A/view?usp=sharing
 
