@@ -23,7 +23,10 @@ There are several intrinsic evaluation metrics for regression models. To see how
 We can save our trained classifier model to disk using pickle. It can then be reloaded later on and used exactly as if we had trained it.
 
 ## Input/Output 
-Live link : http://bike-model.herokuapp.com/
+Live link : http://bike-model.herokuapp.com
+
+![bike1](https://user-images.githubusercontent.com/74424623/139556289-43d5fe4c-e6d3-44f6-8ce7-c4249a149792.png)
+![bike2](https://user-images.githubusercontent.com/74424623/139556290-b281412f-1742-4b1f-ac0c-ad7548e0f2b6.png)
 
 
 
