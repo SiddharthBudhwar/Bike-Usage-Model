@@ -17,4 +17,9 @@ It looks like there may be a good relationship between temperature and the numbe
 
 There are several intrinsic evaluation metrics for regression models. To see how our predictions match the true values, we can calculate R2, Mean Absolute Error and the Explained Variance. Briefley, we want R2 and EVS to be close to 1.0 and MAE to be close to 0. We can also plot predictions against truth in a regression plot, which will automatically fit a line for us.
 
+![1_Lt8qwaQG7DUZBGJ_3b9VUA](https://user-images.githubusercontent.com/74424623/139556141-81d6fa14-5fe0-406b-b3c4-d2add1fce66d.png)
+
+### 4. Getting the model ready for deployment
+We can save our trained classifier model to disk using pickle. It can then be reloaded later on and used exactly as if we had trained it.
+
 
